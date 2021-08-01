@@ -1,0 +1,1238 @@
+[
+  {
+    "id": 5126887,
+    "name": "Shirt 'Enoa'",
+    "brand": "JACK & JONES",
+    "price": 4990,
+    "color": [
+      "navy/weiß/schwarz/dunkelgrün",
+      "schwarz/weiß",
+      "weiß",
+      "schwarz",
+      "offwhite/schwarz"
+    ]
+  },
+  {
+    "id": 4299563,
+    "name": "Shirt 'Lock Up'",
+    "brand": "ADIDAS ORIGINALS",
+    "price": 2990,
+    "color": [
+      "schwarz/weiß",
+      "beige/weiß",
+      "schlammfarben/weiß"
+    ]
+  },
+  {
+    "id": 3673399,
+    "name": "Hemd",
+    "brand": "TOMMY HILFIGER",
+    "price": 5990,
+    "color": [
+      "schwarz",
+      "offwhite",
+      "marine",
+      "hellblau"
+    ]
+  },
+  {
+    "id": 4789921,
+    "name": "Jeans 'Ansgar'",
+    "brand": "DAN FOX APPAREL",
+    "price": 7990,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 5023434,
+    "name": "Hose 'MARCO STUART'",
+    "brand": "JACK & JONES",
+    "price": 5290,
+    "color": [
+      "schwarz/grau"
+    ]
+  },
+  {
+    "id": 5084443,
+    "name": "Shirt",
+    "brand": "TOMMY HILFIGER",
+    "price": 2690,
+    "color": [
+      "dunkelblau",
+      "schwarz",
+      "weiß",
+      "hellgrau"
+    ]
+  },
+  {
+    "id": 5005716,
+    "name": "Jeans 'ONSLOOM'",
+    "brand": "Only & Sons",
+    "price": 3490,
+    "color": [
+      "grey denim"
+    ]
+  },
+  {
+    "id": 5584387,
+    "name": "Jeans 'LOOM BLUE JOG PK 8472 NOOS'",
+    "brand": "Only & Sons",
+    "price": 2790,
+    "color": [
+      "blue denim"
+    ]
+  },
+  {
+    "id": 5042669,
+    "name": "Sweatshirt",
+    "brand": "LEVI'S",
+    "price": 5490,
+    "color": [
+      "grau/rot",
+      "indigo",
+      "schwarz",
+      "goldgelb/rot"
+    ]
+  },
+  {
+    "id": 4341386,
+    "name": "Trunks 'JACHUEY'",
+    "brand": "JACK & JONES",
+    "price": 3490,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 3833268,
+    "name": "Poloshirt 'SHHNEWSEASON SS NOOS'",
+    "brand": "SELECTED HOMME",
+    "price": 1990,
+    "color": [
+      "navy",
+      "rot",
+      "weiß",
+      "grau",
+      "hellblau",
+      "weiß/dunkelorange/schwarz",
+      "apfel"
+    ]
+  },
+  {
+    "id": 6901747,
+    "name": "Boxershorts",
+    "brand": "Calvin Klein Underwear",
+    "price": 8495,
+    "color": [
+      "schwarz/mischfarben"
+    ]
+  },
+  {
+    "id": 4086666,
+    "name": "Hose 'MARCO'",
+    "brand": "JACK & JONES",
+    "price": 3990,
+    "color": [
+      "schwarz",
+      "oliv",
+      "nachtblau",
+      "dunkelbeige"
+    ]
+  },
+  {
+    "id": 5704548,
+    "name": "Sportshorts",
+    "brand": "ADIDAS PERFORMANCE",
+    "price": 2990,
+    "color": [
+      "schwarz/weiß",
+      "dunkelgrau/weiß",
+      "navy/schwarz",
+      "nachtblau/weiß"
+    ]
+  },
+  {
+    "id": 5188786,
+    "name": "Hemd",
+    "brand": "ESPRIT",
+    "price": 2990,
+    "color": [
+      "navy",
+      "weiß",
+      "himmelblau",
+      "hellbeige",
+      "grün"
+    ]
+  },
+  {
+    "id": 5218318,
+    "name": "Shirt  'SS RELAXED FIT'",
+    "brand": "LEVI'S",
+    "price": 2490,
+    "color": [
+      "schwarz",
+      "grau/schwarz",
+      "beere",
+      "weiß",
+      "dunkelrot",
+      "limette"
+    ]
+  },
+  {
+    "id": 5216485,
+    "name": "Shorts",
+    "brand": "JACK & JONES",
+    "price": 4990,
+    "color": [
+      "blue denim"
+    ]
+  },
+  {
+    "id": 6580036,
+    "name": "Shorts 'Mark'",
+    "brand": "Only & Sons",
+    "price": 2990,
+    "color": [
+      "oliv",
+      "elfenbein",
+      "navy"
+    ]
+  },
+  {
+    "id": 4027171,
+    "name": "Cargohose",
+    "brand": "Urban Classics",
+    "price": 3490,
+    "color": [
+      "dunkelgrau",
+      "sand",
+      "schwarz",
+      "navy",
+      "dunkelgrün",
+      "braun",
+      "navy",
+      "oliv",
+      "sand",
+      "braun",
+      "dunkelbraun"
+    ]
+  },
+  {
+    "id": 6720408,
+    "name": "T-Shirt 'Adicolor'",
+    "brand": "ADIDAS ORIGINALS",
+    "price": 2990,
+    "color": [
+      "hellblau/weiß",
+      "weiß/schwarz",
+      "schwarz/weiß",
+      "weiß/graumeliert",
+      "dunkelblau/weiß/feuerrot",
+      "schwarz/weiß/helllila/orange",
+      "offwhite/helllila/dunkelorange/orange",
+      "offwhite/schwarz",
+      "rot/weiß",
+      "mint/weiß"
+    ]
+  },
+  {
+    "id": 4283644,
+    "name": "T-Shirt",
+    "brand": "Urban Classics",
+    "price": 2790,
+    "color": [
+      "grün/rot/weiß/navy",
+      "weiß/rot/hellblau/dunkelblau"
+    ]
+  },
+  {
+    "id": 3923174,
+    "name": "Hemd 'SHERIDAN'",
+    "brand": "JACK & JONES",
+    "price": 3999,
+    "color": [
+      "black denim",
+      "grau/grey denim",
+      "blue denim"
+    ]
+  },
+  {
+    "id": 4522054,
+    "name": "Jeans '511'",
+    "brand": "LEVI'S",
+    "price": 9490,
+    "color": [
+      "blue denim",
+      "blue denim",
+      "black denim",
+      "dunkelblau",
+      "grey denim",
+      "blue denim",
+      "blue denim",
+      "hellblau",
+      "nachtblau",
+      "black denim",
+      "grey denim",
+      "dunkelblau",
+      "blue denim",
+      "blue denim",
+      "dunkelgrau",
+      "blue denim",
+      "dunkelblau",
+      "blue denim",
+      "blau",
+      "dunkelblau",
+      "grey denim",
+      "blau"
+    ]
+  },
+  {
+    "id": 4778398,
+    "name": "Piquee-Polo mit Wasch-Effekt und Artworks",
+    "brand": "CAMP DAVID",
+    "price": 4790,
+    "color": [
+      "dunkelblau",
+      "grün",
+      "blau"
+    ]
+  },
+  {
+    "id": 6859726,
+    "name": "Jogginganzug",
+    "brand": "Nike Sportswear",
+    "price": 9490,
+    "color": [
+      "schwarz/weiß",
+      "dunkelgrau"
+    ]
+  },
+  {
+    "id": 4303547,
+    "name": "Shirt",
+    "brand": "ELLESSE",
+    "price": 2490,
+    "color": [
+      "dunkelgrau/weiß/orange/rot",
+      "orange/schwarz/weiß",
+      "orange/graumeliert/rot/navy",
+      "navy/weiß/orange",
+      "khaki/weiß/melone/orange",
+      "lila/schwarz/gelb/orange",
+      "hellorange/weiß/melone"
+    ]
+  },
+  {
+    "id": 3959019,
+    "name": "Hose 'Paul Flake'",
+    "brand": "JACK & JONES",
+    "price": 5999,
+    "color": [
+      "schwarz",
+      "oliv",
+      "grau",
+      "blau",
+      "hellgrau",
+      "hellbeige",
+      "creme"
+    ]
+  },
+  {
+    "id": 3887297,
+    "name": "T-Shirt 'F*ck The World'",
+    "brand": "Mister Tee",
+    "price": 2390,
+    "color": [
+      "schwarz/weiß"
+    ]
+  },
+  {
+    "id": 5039612,
+    "name": "T-Shirt 'A Burger'",
+    "brand": "Mister Tee",
+    "price": 1990,
+    "color": [
+      "schwarz/hellbeige/hellgrün/dunkelbraun/senf",
+      "weiß/mischfarben"
+    ]
+  },
+  {
+    "id": 5008659,
+    "name": "Sweatjacke",
+    "brand": "Superdry",
+    "price": 5990,
+    "color": [
+      "grau",
+      "marine",
+      "navy/rot",
+      "dunkelgrau",
+      "marine/weiß"
+    ]
+  },
+  {
+    "id": 6656797,
+    "name": "Sportanzug 'JUVE TK'",
+    "brand": "ADIDAS PERFORMANCE",
+    "price": 10900,
+    "color": [
+      "weiß/schwarz/grau",
+      "schwarz/weiß"
+    ]
+  },
+  {
+    "id": 4107709,
+    "name": "Jeans 'Tim'",
+    "brand": "JACK & JONES",
+    "price": 4999,
+    "color": [
+      "blue denim",
+      "black denim",
+      "blue denim"
+    ]
+  },
+  {
+    "id": 5685513,
+    "name": "T-Shirt",
+    "brand": "Iriedaily",
+    "price": 2390,
+    "color": [
+      "schwarz/weiß",
+      "weiß/schwarz"
+    ]
+  },
+  {
+    "id": 6546069,
+    "name": "Jeans 'Rafael'",
+    "brand": "DAN FOX APPAREL",
+    "price": 5490,
+    "color": [
+      "offwhite",
+      "blau",
+      "braun"
+    ]
+  },
+  {
+    "id": 4561458,
+    "name": "Chinohose 'SLIM TAPER CHINO II'",
+    "brand": "LEVI'S",
+    "price": 5990,
+    "color": [
+      "navy",
+      "beige",
+      "oliv",
+      "schwarz"
+    ]
+  },
+  {
+    "id": 6545178,
+    "name": "Hemd 'JPRBLASUMMER''",
+    "brand": "JACK & JONES",
+    "price": 3999,
+    "color": [
+      "navy",
+      "naturweiß",
+      "rauchblau"
+    ]
+  },
+  {
+    "id": 3431043,
+    "name": "T-Shirt",
+    "brand": "LEVI'S",
+    "price": 2490,
+    "color": [
+      "weiß/rot",
+      "kirschrot/weiß/graumeliert",
+      "schwarz/hellrot/weiß",
+      "navy/rot/weiß",
+      "weiß",
+      "weiß/indigo",
+      "dunkelgrün/weiß",
+      "offwhite/hellblau/hellgelb",
+      "schwarz/weiß/lila/pastelllila",
+      "graumeliert/aqua/weiß",
+      "graumeliert/weiß",
+      "navy/weiß",
+      "royalblau/rot",
+      "pastellgelb/schwarz",
+      "schwarz/weiß/pastellpink",
+      "weiß/pastelllila/pastellgrün",
+      "weiß/schwarz",
+      "weiß/hellgrau/mint"
+    ]
+  },
+  {
+    "id": 6914244,
+    "name": "Poloshirt 'Passertip 1'",
+    "brand": "BOSS Casual",
+    "price": 7990,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 3988871,
+    "name": "Jacke 'Mont 2'",
+    "brand": "ELLESSE",
+    "price": 7990,
+    "color": [
+      "navy/weiß/orange/hellrot",
+      "schwarz"
+    ]
+  },
+  {
+    "id": 3424334,
+    "name": "Boxershorts 'LICHFIELD'",
+    "brand": "JACK & JONES",
+    "price": 2499,
+    "color": [
+      "navy/grey denim/burgunder/orange"
+    ]
+  },
+  {
+    "id": 5152678,
+    "name": "Boxershorts 'James'",
+    "brand": "JACK & JONES",
+    "price": 1990,
+    "color": [
+      "navy/nachtblau/blaumeliert"
+    ]
+  },
+  {
+    "id": 4717831,
+    "name": "T-Shirt 'Bye Bye'",
+    "brand": "Iriedaily",
+    "price": 2790,
+    "color": [
+      "weiß",
+      "schwarz/mischfarben"
+    ]
+  },
+  {
+    "id": 5018428,
+    "name": "Jeans 'Josh'",
+    "brand": "TOM TAILOR",
+    "price": 5290,
+    "color": [
+      "dunkelblau",
+      "blue denim"
+    ]
+  },
+  {
+    "id": 5700666,
+    "name": "Shirt",
+    "brand": "LACOSTE",
+    "price": 8990,
+    "color": [
+      "oliv/dunkelgelb/dunkelblau/weiß",
+      "rauchblau/navy/altrosa/weiß"
+    ]
+  },
+  {
+    "id": 6717759,
+    "name": "Shirt 'Lino'",
+    "brand": "DAN FOX APPAREL",
+    "price": 3990,
+    "color": [
+      "kitt",
+      "schwarz",
+      "weiß",
+      "khaki"
+    ]
+  },
+  {
+    "id": 5896301,
+    "name": "Jeans 'WILLBI'",
+    "brand": "REPLAY",
+    "price": 12500,
+    "color": [
+      "blau",
+      "hellblau"
+    ]
+  },
+  {
+    "id": 5588461,
+    "name": "Shirt 'Tyler'",
+    "brand": "JACK & JONES",
+    "price": 1299,
+    "color": [
+      "blau/navy/orange/dunkelorange/rotviolett",
+      "pitaya/beige/schwarz/royalblau/orange",
+      "weiß/orange/blau/rot/schwarz",
+      "oliv"
+    ]
+  },
+  {
+    "id": 6863021,
+    "name": "Sportshirt",
+    "brand": "Reebok Sport",
+    "price": 1990,
+    "color": [
+      "navy/rot",
+      "weiß/blau"
+    ]
+  },
+  {
+    "id": 5582829,
+    "name": "Sweatshirt",
+    "brand": "JACK & JONES",
+    "price": 2190,
+    "color": [
+      "schwarz",
+      "dunkelblau",
+      "graumeliert",
+      "mint",
+      "rot",
+      "grau",
+      "kobaltblau",
+      "hellgelb",
+      "dunkellila",
+      "grün/weiß"
+    ]
+  },
+  {
+    "id": 3809233,
+    "name": "T-Shirt",
+    "brand": "GANT",
+    "price": 2990,
+    "color": [
+      "schwarz/grau/rot/blau",
+      "hellgrau/blau/rot",
+      "weiß/blau/rot",
+      "blau",
+      "dunkelpink",
+      "blau"
+    ]
+  },
+  {
+    "id": 6730892,
+    "name": "Shorts",
+    "brand": "Nike Sportswear",
+    "price": 5490,
+    "color": [
+      "rot/weiß/schwarz",
+      "navy/weiß",
+      "schwarz/weiß/grau",
+      "oliv/weiß",
+      "weiß/schwarz/hellgrau"
+    ]
+  },
+  {
+    "id": 6857237,
+    "name": "T-Shirt",
+    "brand": "POLO RALPH LAUREN",
+    "price": 6990,
+    "color": [
+      "weiß",
+      "rot",
+      "schwarz/hellrot",
+      "navy/rot",
+      "khaki",
+      "graumeliert"
+    ]
+  },
+  {
+    "id": 3463955,
+    "name": "T-Shirt 'BORO'",
+    "brand": "JACK & JONES",
+    "price": 1190,
+    "color": [
+      "schwarz/weiß",
+      "schwarz/weiß",
+      "weiß/dunkelblau"
+    ]
+  },
+  {
+    "id": 3886760,
+    "name": "T-Shirt 'Flamingo'",
+    "brand": "Mister Tee",
+    "price": 1990,
+    "color": [
+      "hellpink/weiß/hellgrün/hellgelb"
+    ]
+  },
+  {
+    "id": 6715549,
+    "name": "Sweatjacke 'Beckenbauer'",
+    "brand": "ADIDAS ORIGINALS",
+    "price": 6990,
+    "color": [
+      "schwarz/weiß",
+      "weiß/hellrot"
+    ]
+  },
+  {
+    "id": 6902517,
+    "name": "Hose",
+    "brand": "TOMMY HILFIGER",
+    "price": 9899,
+    "color": [
+      "graumeliert/weiß/rot/dunkelblau",
+      "marine/weiß/rot",
+      "schwarz/weiß/rot/dunkelblau",
+      "weiß/schwarz/rot"
+    ]
+  },
+  {
+    "id": 6886297,
+    "name": "Weste 'Eace'",
+    "brand": "JACK & JONES",
+    "price": 3499,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 5727828,
+    "name": "Sweatshirt",
+    "brand": "ADIDAS ORIGINALS",
+    "price": 4990,
+    "color": [
+      "schwarz/weiß",
+      "hellgrün/weiß"
+    ]
+  },
+  {
+    "id": 5718317,
+    "name": "T-Shirt",
+    "brand": "LACOSTE",
+    "price": 4990,
+    "color": [
+      "schwarz/hellgrün/weiß",
+      "grün/graumeliert/weiß",
+      "hellrot",
+      "blau"
+    ]
+  },
+  {
+    "id": 6871058,
+    "name": "Jacke",
+    "brand": "DIESEL",
+    "price": 94900,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 4587908,
+    "name": "Trunks",
+    "brand": "JACK & JONES",
+    "price": 2499,
+    "color": [
+      "dunkelgrau/blau/navy"
+    ]
+  },
+  {
+    "id": 4208225,
+    "name": "Poloshirt 'SSKCSLM1-SHORT SLEEVE-KNIT'",
+    "brand": "POLO RALPH LAUREN",
+    "price": 9990,
+    "color": [
+      "schwarz",
+      "himmelblau",
+      "hellbraun/braun",
+      "jade",
+      "goldgelb/blau"
+    ]
+  },
+  {
+    "id": 3797035,
+    "name": "Boxershorts 'SENSE'",
+    "brand": "JACK & JONES",
+    "price": 2499,
+    "color": [
+      "grau/weiß/schwarz",
+      "schwarz/weiß",
+      "schwarz/weiß",
+      "schwarz/weiß"
+    ]
+  },
+  {
+    "id": 606896,
+    "name": "Trunks",
+    "brand": "Calvin Klein Underwear",
+    "price": 3999,
+    "color": [
+      "grau/schwarz/weiß",
+      "weiß/hellrot/blau/schwarz",
+      "schwarz/weiß",
+      "weiß",
+      "schwarz/weiß",
+      "blau/schwarz",
+      "mischfarben/dunkelblau/hellrot/offwhite/hellgrau",
+      "offwhite",
+      "schwarz/orange/blau/navy",
+      "grau/schwarz/weiß",
+      "schwarz",
+      "schwarz",
+      "blau"
+    ]
+  },
+  {
+    "id": 5000594,
+    "name": "Hose 'MARK'",
+    "brand": "Only & Sons",
+    "price": 3490,
+    "color": [
+      "grau/weiß",
+      "grau",
+      "schwarz/weiß",
+      "dunkelblau/hellblau",
+      "weiß/grau",
+      "oliv/khaki",
+      "tanne"
+    ]
+  },
+  {
+    "id": 4119163,
+    "name": "Jeans 'Josh'",
+    "brand": "TOM TAILOR",
+    "price": 4490,
+    "color": [
+      "schwarz"
+    ]
+  },
+  {
+    "id": 6856362,
+    "name": "Hemd",
+    "brand": "POLO RALPH LAUREN",
+    "price": 10900,
+    "color": [
+      "weiß/marine"
+    ]
+  },
+  {
+    "id": 5738465,
+    "name": "Sportshorts",
+    "brand": "ADIDAS PERFORMANCE",
+    "price": 2990,
+    "color": [
+      "dunkelgrau/weiß",
+      "schwarz/weiß",
+      "navy/schwarz",
+      "nachtblau/weiß"
+    ]
+  },
+  {
+    "id": 4957491,
+    "name": "Jeans 'JJITIM JJORIGINAL JOS 119 NOOS'",
+    "brand": "JACK & JONES",
+    "price": 5990,
+    "color": [
+      "blue denim",
+      "blau",
+      "dunkelblau",
+      "blue denim",
+      "grey denim"
+    ]
+  },
+  {
+    "id": 6860938,
+    "name": "Shirt",
+    "brand": "TOMMY HILFIGER",
+    "price": 2990,
+    "color": [
+      "blau",
+      "schwarz",
+      "weiß"
+    ]
+  },
+  {
+    "id": 4463345,
+    "name": "Hose 'MARK'",
+    "brand": "Only & Sons",
+    "price": 3999,
+    "color": [
+      "dunkelgrau",
+      "navy",
+      "schwarz",
+      "tanne",
+      "graumeliert"
+    ]
+  },
+  {
+    "id": 5186665,
+    "name": "Hemd 'EGINGHAM'",
+    "brand": "JACK & JONES",
+    "price": 2490,
+    "color": [
+      "rostrot/schwarz",
+      "weiß/schwarz",
+      "weinrot/dunkelblau",
+      "grün/schwarz"
+    ]
+  },
+  {
+    "id": 5201733,
+    "name": "Hose",
+    "brand": "Only & Sons",
+    "price": 2190,
+    "color": [
+      "blau",
+      "schwarz",
+      "grau",
+      "grau"
+    ]
+  },
+  {
+    "id": 4286044,
+    "name": "Shirt 'ORIGHMVNECK'",
+    "brand": "LEVI'S",
+    "price": 1990,
+    "color": [
+      "weiß",
+      "dunkelblau",
+      "schwarz",
+      "weiß/schwarz",
+      "dunkelblau/weiß",
+      "pastellgrün"
+    ]
+  },
+  {
+    "id": 4373414,
+    "name": "Boxershorts 'Oliver'",
+    "brand": "JACK & JONES",
+    "price": 3490,
+    "color": [
+      "mischfarben"
+    ]
+  },
+  {
+    "id": 2223465,
+    "name": "Poloshirt - Classic Fit",
+    "brand": "LACOSTE",
+    "price": 9490,
+    "color": [
+      "schwarz",
+      "hellblau",
+      "marine",
+      "rot",
+      "offwhite",
+      "grün",
+      "gelb",
+      "bordeaux/grün/weiß",
+      "khaki",
+      "türkis",
+      "grau",
+      "blau/grün/weiß/rot",
+      "tanne/weiß",
+      "gelb/weiß/grün/rot",
+      "royalblau/weiß/grün/rot"
+    ]
+  },
+  {
+    "id": 5866483,
+    "name": "T-Shirt",
+    "brand": "JACK & JONES",
+    "price": 2190,
+    "color": [
+      "schwarz/offwhite/dunkelblau",
+      "schwarz/weiß"
+    ]
+  },
+  {
+    "id": 3888522,
+    "name": "T-Shirt 'F#?KIT'",
+    "brand": "Mister Tee",
+    "price": 1590,
+    "color": [
+      "schwarz/weiß",
+      "weiß/hellgrau/dunkelgrau",
+      "pastellrot/weiß/hellgrau/schwarz"
+    ]
+  },
+  {
+    "id": 4880816,
+    "name": "Jeans",
+    "brand": "LEVI'S",
+    "price": 10500,
+    "color": [
+      "grey denim",
+      "blue denim",
+      "black denim",
+      "dunkelblau",
+      "blue denim",
+      "grey denim",
+      "blue denim",
+      "blue denim",
+      "hellblau",
+      "nachtblau",
+      "black denim",
+      "dunkelblau",
+      "blue denim",
+      "blue denim",
+      "dunkelgrau",
+      "blue denim",
+      "dunkelblau",
+      "blue denim",
+      "blau",
+      "dunkelblau",
+      "grey denim",
+      "blau"
+    ]
+  },
+  {
+    "id": 5209802,
+    "name": "Shirt",
+    "brand": "ADIDAS ORIGINALS",
+    "price": 3500,
+    "color": [
+      "weiß/schwarz",
+      "schwarz/weiß",
+      "rot/weiß",
+      "grün/weiß"
+    ]
+  },
+  {
+    "id": 4826567,
+    "name": "Shirt 'Basic T Foil Print'",
+    "brand": "ALPHA INDUSTRIES",
+    "price": 2290,
+    "color": [
+      "gold/schwarz",
+      "goldgelb/schwarz",
+      "weinrot/rosegold",
+      "schwarz/weiß"
+    ]
+  },
+  {
+    "id": 6771639,
+    "name": "Sweatshirt",
+    "brand": "Abercrombie & Fitch",
+    "price": 7490,
+    "color": [
+      "graumeliert/orange/blau/weiß/jade"
+    ]
+  },
+  {
+    "id": 3947842,
+    "name": "Hoodie 'ECORP'",
+    "brand": "JACK & JONES",
+    "price": 2090,
+    "color": [
+      "navy/weiß",
+      "schwarz",
+      "schwarz/dunkelgrau/orange",
+      "weiß/schwarz/rot"
+    ]
+  },
+  {
+    "id": 6866571,
+    "name": "Poloshirt",
+    "brand": "LEVI'S",
+    "price": 3990,
+    "color": [
+      "weiß/feuerrot",
+      "rot",
+      "schwarz",
+      "dunkelblau/rot/weiß"
+    ]
+  },
+  {
+    "id": 5618140,
+    "name": "Shirt 'God Given Pizza'",
+    "brand": "Mister Tee",
+    "price": 2490,
+    "color": [
+      "schwarz/grau/orange"
+    ]
+  },
+  {
+    "id": 4088963,
+    "name": "Hose 'Marco Bowie'",
+    "brand": "JACK & JONES",
+    "price": 3999,
+    "color": [
+      "nachtblau",
+      "schwarz",
+      "oliv",
+      "dunkelbeige"
+    ]
+  },
+  {
+    "id": 4214176,
+    "name": "Jeans 'Jet Slim Taperd Multiflex'",
+    "brand": "BLEND",
+    "price": 4790,
+    "color": [
+      "blue denim",
+      "blue denim"
+    ]
+  },
+  {
+    "id": 4135215,
+    "name": "Sakko 'Simon'",
+    "brand": "JACK & JONES",
+    "price": 6990,
+    "color": [
+      "taubenblau",
+      "taubenblau"
+    ]
+  },
+  {
+    "id": 6696777,
+    "name": "Sweatshirt",
+    "brand": "TOMMY HILFIGER",
+    "price": 11900,
+    "color": [
+      "weiß/petrol/schwarz/camel/navy",
+      "nachtblau/mischfarben"
+    ]
+  },
+  {
+    "id": 3641982,
+    "name": "Hemd 'SHDONENEW-MARK'",
+    "brand": "SELECTED HOMME",
+    "price": 3990,
+    "color": [
+      "navy",
+      "hellblau",
+      "weiß",
+      "weiß/blau",
+      "hellblau/weiß",
+      "burgunder",
+      "schwarz",
+      "blau/weiß",
+      "rot/weiß"
+    ]
+  },
+  {
+    "id": 6856624,
+    "name": "Jeans",
+    "brand": "LEVI'S",
+    "price": 6990,
+    "color": [
+      "blue denim"
+    ]
+  },
+  {
+    "id": 6713363,
+    "name": "Shorts 'Tino'",
+    "brand": "DAN FOX APPAREL",
+    "price": 4490,
+    "color": [
+      "hellgrau",
+      "schwarz",
+      "weiß",
+      "khaki"
+    ]
+  },
+  {
+    "id": 6545763,
+    "name": "Shirt 'Luke'",
+    "brand": "DAN FOX APPAREL",
+    "price": 3990,
+    "color": [
+      "blau",
+      "anthrazit",
+      "khaki",
+      "senf",
+      "beige"
+    ]
+  },
+  {
+    "id": 6545514,
+    "name": "Jacke 'Neo'",
+    "brand": "DAN FOX APPAREL",
+    "price": 7990,
+    "color": [
+      "beige",
+      "blau"
+    ]
+  },
+  {
+    "id": 5877477,
+    "name": "Shorts 'ULT365'",
+    "brand": "adidas Golf",
+    "price": 6490,
+    "color": [
+      "schwarz",
+      "marine",
+      "beige"
+    ]
+  },
+  {
+    "id": 4875443,
+    "name": "Sweatshirt 'Brandon'",
+    "brand": "DIESEL",
+    "price": 7990,
+    "color": [
+      "schwarz/weiß/rot",
+      "dunkelblau/weiß/rot",
+      "schwarz/grenadine/graumeliert"
+    ]
+  },
+  {
+    "id": 4966738,
+    "name": "Pullover 'Graham'",
+    "brand": "JACK & JONES",
+    "price": 2790,
+    "color": [
+      "schwarz/oliv",
+      "burgunder/schwarz",
+      "hellgrau/nachtblau"
+    ]
+  },
+  {
+    "id": 4279727,
+    "name": "Jeans '3301 Slim'",
+    "brand": "G-Star RAW",
+    "price": 7990,
+    "color": [
+      "blue denim",
+      "dunkelblau",
+      "grey denim",
+      "blue denim",
+      "blue denim",
+      "grey denim",
+      "black denim",
+      "blue denim",
+      "blue denim",
+      "white denim",
+      "blue denim",
+      "hellblau"
+    ]
+  },
+  {
+    "id": 6604831,
+    "name": "Shirt",
+    "brand": "HOLLISTER",
+    "price": 2190,
+    "color": [
+      "schwarz/pink",
+      "weiß/hellblau",
+      "schwarz/türkis"
+    ]
+  },
+  {
+    "id": 5294689,
+    "name": "Shirt",
+    "brand": "ALPHA INDUSTRIES",
+    "price": 1990,
+    "color": [
+      "dunkelblau/senf",
+      "weiß",
+      "graumeliert",
+      "weiß/navy",
+      "oliv/schwarz",
+      "goldgelb/dunkelrot",
+      "dunkelgrün/orange",
+      "schwarz/weiß",
+      "grau/dunkelblau",
+      "schwarz/hellblau",
+      "weiß/graphit",
+      "weiß/graumeliert",
+      "schwarz/dunkelgrau",
+      "oliv/weiß",
+      "offwhite/gelb",
+      "weiß",
+      "schwarz",
+      "dunkelgrün/braun/weiß",
+      "rot/weiß",
+      "dunkelgrau",
+      "creme/weiß",
+      "dunkelgrau/weiß",
+      "schwarz/offwhite"
+    ]
+  }
+]
