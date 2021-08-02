@@ -1,6 +1,7 @@
 package test.assignment;
 
 import com.google.gson.*;
+import test.assignment.exceptions.ParsingException;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -59,7 +60,6 @@ public class Parser {
         Product product = new Product();
         JsonElement jsonElement = JsonParser.parseString(json);
         if (jsonElement.isJsonObject()) {
-
             JsonObject entity = jsonElement.getAsJsonObject()
                     .getAsJsonArray("entities")
                     .get(product_i).getAsJsonObject();
@@ -77,36 +77,52 @@ public class Parser {
         Parsing ID from product entity
      */
     public static int parseIdFromEntity(JsonObject entity) {
-        return entity.get("id").getAsInt();
+        try {
+            return entity.get("id").getAsInt();
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing id".concat(e.getMessage()));
+        }
     }
 
     /*
         Parsing name from product entity
      */
     public static String parseNameFromEntity(JsonObject entity) {
-        return entity.get("attributes").getAsJsonObject()
-                .get("name").getAsJsonObject()
-                .get("values").getAsJsonObject()
-                .get("label").getAsString();
+        try {
+            return entity.get("attributes").getAsJsonObject()
+                    .get("name").getAsJsonObject()
+                    .get("values").getAsJsonObject()
+                    .get("label").getAsString();
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing name".concat(e.getMessage()));
+        }
     }
 
     /*
         Parsing brand from product entity
      */
     public static String parseBrandFromEntity(JsonObject entity) {
-        return entity.get("attributes").getAsJsonObject()
-                .get("brand").getAsJsonObject()
-                .get("values").getAsJsonObject()
-                .get("label").getAsString();
+        try {
+            return entity.get("attributes").getAsJsonObject()
+                    .get("brand").getAsJsonObject()
+                    .get("values").getAsJsonObject()
+                    .get("label").getAsString();
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing brand".concat(e.getMessage()));
+        }
     }
 
     /*
         Parsing price from product entity
      */
     public static int parsePriceFromEntity(JsonObject entity) {
-        return entity.get("priceRange").getAsJsonObject()
-                .get("min").getAsJsonObject()
-                .get("withTax").getAsInt();
+        try {
+            return entity.get("priceRange").getAsJsonObject()
+                    .get("min").getAsJsonObject()
+                    .get("withTax").getAsInt();
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing price".concat(e.getMessage()));
+        }
     }
 
     /*
@@ -116,32 +132,42 @@ public class Parser {
         List<String> colors = new ArrayList<>();
 
         // parsing main color (the first one)
-        JsonArray mainColorsArray = entity.get("attributes").getAsJsonObject()
-                .get("colorDetail").getAsJsonObject()
-                .get("values").getAsJsonArray();
+        try {
+            JsonArray mainColorsArray = entity.get("attributes").getAsJsonObject()
+                    .get("colorDetail").getAsJsonObject()
+                    .get("values").getAsJsonArray();
 
-        String mainColor = parseColors(mainColorsArray);
-        colors.add(mainColor);
+            String mainColor = parseColors(mainColorsArray);
+            colors.add(mainColor);
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing main color".concat(e.getMessage()));
+        }
+
 
         // parsing extra colors (if there are any)
         if (!entity.get("advancedAttributes").getAsJsonObject().has("siblings")) {
             return colors;
         }
-        JsonArray otherColorArray = entity.get("advancedAttributes").getAsJsonObject()
-                .get("siblings").getAsJsonObject()
-                .get("values").getAsJsonArray()
-                .get(0).getAsJsonObject()
-                .get("fieldSet").getAsJsonArray()
-                .get(0).getAsJsonArray();
+        try {
+            JsonArray otherColorArray = entity.get("advancedAttributes").getAsJsonObject()
+                    .get("siblings").getAsJsonObject()
+                    .get("values").getAsJsonArray()
+                    .get(0).getAsJsonObject()
+                    .get("fieldSet").getAsJsonArray()
+                    .get(0).getAsJsonArray();
 
-        for (int i = 0; i < otherColorArray.size(); i++) {
-            if (!otherColorArray.get(i).getAsJsonObject().get("isSoldOut").getAsBoolean()) {
-                String additionalColor = parseColors(otherColorArray
-                        .get(i).getAsJsonObject()
-                        .get("colorDetail").getAsJsonArray());
-                colors.add(additionalColor);
+            for (int i = 0; i < otherColorArray.size(); i++) {
+                if (!otherColorArray.get(i).getAsJsonObject().get("isSoldOut").getAsBoolean()) {
+                    String additionalColor = parseColors(otherColorArray
+                            .get(i).getAsJsonObject()
+                            .get("colorDetail").getAsJsonArray());
+                    colors.add(additionalColor);
+                }
             }
+        } catch (ClassCastException e) {
+            throw new ParsingException("Exception in parsing extra colors".concat(e.getMessage()));
         }
+
 
         return colors;
     }
