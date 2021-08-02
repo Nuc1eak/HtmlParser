@@ -35,13 +35,15 @@ public class Parser {
 
 
     public static void main(String[] args) throws IOException {
-
+        // receive raw Json from an HTTP request
         String json = readJson(JSON_URL);
 
+        // parsing all products from the page and collecting them to the products list (deserialization)
         List<Product> products = IntStream.range(0, PRODUCTS_PER_PAGE)
                 .mapToObj(i -> parseJson(json, i))
                 .collect(Collectors.toList());
 
+        // convert all products to a custom json (serialization)
         String finalJson = convertSrcToJson(products);
 
         writeJson(FILE_NAME, beautifyJson(finalJson));
@@ -50,6 +52,9 @@ public class Parser {
                 "Amount of extracted products = %d\n", amountOfTriggeredHttpRequest, products.size());
     }
 
+    /*
+        Parsing one product entity from raw json
+     */
     public static Product parseJson(String json, int product_i) {
         Product product = new Product();
         JsonElement jsonElement = JsonParser.parseString(json);
@@ -68,10 +73,16 @@ public class Parser {
         return product;
     }
 
+    /*
+        Parsing ID from product entity
+     */
     public static int parseIdFromEntity(JsonObject entity) {
         return entity.get("id").getAsInt();
     }
 
+    /*
+        Parsing name from product entity
+     */
     public static String parseNameFromEntity(JsonObject entity) {
         return entity.get("attributes").getAsJsonObject()
                 .get("name").getAsJsonObject()
@@ -79,6 +90,9 @@ public class Parser {
                 .get("label").getAsString();
     }
 
+    /*
+        Parsing brand from product entity
+     */
     public static String parseBrandFromEntity(JsonObject entity) {
         return entity.get("attributes").getAsJsonObject()
                 .get("brand").getAsJsonObject()
@@ -86,15 +100,22 @@ public class Parser {
                 .get("label").getAsString();
     }
 
+    /*
+        Parsing price from product entity
+     */
     public static int parsePriceFromEntity(JsonObject entity) {
         return entity.get("priceRange").getAsJsonObject()
                 .get("min").getAsJsonObject()
                 .get("withTax").getAsInt();
     }
 
+    /*
+        Parsing main and extra colors from product entity
+     */
     public static List<String> parseColorsFromEntity(JsonObject entity) {
         List<String> colors = new ArrayList<>();
 
+        // parsing main color (the first one)
         JsonArray mainColorsArray = entity.get("attributes").getAsJsonObject()
                 .get("colorDetail").getAsJsonObject()
                 .get("values").getAsJsonArray();
@@ -102,6 +123,7 @@ public class Parser {
         String mainColor = parseColors(mainColorsArray);
         colors.add(mainColor);
 
+        // parsing extra colors (if there are any)
         if (!entity.get("advancedAttributes").getAsJsonObject().has("siblings")) {
             return colors;
         }
@@ -124,34 +146,52 @@ public class Parser {
         return colors;
     }
 
+    /*
+        Parsing and converting an array of colors to a String (e.g. "schwarz/weiß")
+     */
     private static String parseColors(JsonArray array) {
         return IntStream.range(0, array.size())
                 .mapToObj(i -> array.get(i).getAsJsonObject().get("label").getAsString())
                 .collect(Collectors.joining("/"));
     }
 
+    /*
+        Making an HTTP request using the URL and reading its source with a BufferedInputStream
+     */
     public static String readJson(String urlString) throws IOException {
         amountOfTriggeredHttpRequest++;
         StringBuilder parsedContentFromJson = new StringBuilder();
         URL url = new URL(urlString);
+        // Creating an URL connection
         URLConnection uc = url.openConnection();
+        // Pretend we're browser
         uc.addRequestProperty("User-agent", "Chrome/4.0.249.0 Safari/532.5");
         uc.connect();
         BufferedInputStream in = new BufferedInputStream(uc.getInputStream());
         int ch;
+        // Start reading
         while ((ch = in.read()) != -1) parsedContentFromJson.append((char) ch);
         return parsedContentFromJson.toString();
     }
 
+    /*
+        Serializing object to a json
+     */
     public static String convertSrcToJson(Object src) {
         return new GsonBuilder().setPrettyPrinting().create().toJson(src);
     }
 
+    /*
+        Replacing "\u0027" and "\u0026" symbols with "'" and "&"
+     */
     private static String beautifyJson(String uglyJson) {
         return uglyJson.replaceAll("\\\\u0027", "'")
                 .replaceAll("\\\\u0026", "&");
     }
 
+    /*
+        Writing json result to a file
+     */
     public static void writeJson(String fileName, String json) {
         try(FileWriter writer = new FileWriter(new File(fileName))) {
             writer.write(json);
